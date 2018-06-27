@@ -187,9 +187,9 @@ logHello();
 
 function makePerson (name, birthday, ssn){
   var obj = {
-    name: 'name',
-    birthday: 'birthday',
-    ssn: 'ssn'
+    name: name,
+    birthday: birthday,
+    ssn: ssn
   };
 return obj;
 }
@@ -202,11 +202,11 @@ return obj;
 */
 
 //Code Here
-function makeCard (cardNumber, expirationDate, ssn){
+function makeCard (cardNumber, expirationDate, securityCode){
   var obj1 = {
-    cardNumber: 'cardNumber',
-    expirationDate: 'expirationDate',
-    securityCode: 'securityCode'
+    cardNumber: cardNumber,
+    expirationDate: expirationDate,
+    securityCode: securityCode
   };
 return obj1;
 }
