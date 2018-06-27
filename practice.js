@@ -17,11 +17,11 @@
 //Code here
 
 var me = {
-  name:'Joh',
-  age:28
+  name: 'Joh',
+  age: 28
 };
 
-alert(me.name);
+// alert(me.name);
 
 
 
@@ -93,7 +93,7 @@ backPack.color = 'Yellow and grey';
 */
 
 //Code here
-alert(backPack);
+// alert(backPack);
 
 
 /*
@@ -128,10 +128,8 @@ var user2 = {
 
 //Code Here
 
-
-
-
-
+user2.name = "Tyler S. McGinnis";
+user2.email = "tyler.mcginnis@devmounta.in";
 
 
 /////////////////////// EXTRA PRACTICE PROBLEMS BELOW ////////////////////
@@ -151,7 +149,7 @@ var user2 = {
 
 //Code Here
 
-
+var methodCollection = {};
 
 /*
   Now add two methods (functions that are properties on objects) to your methodCollection object.
@@ -160,7 +158,14 @@ var user2 = {
 
 //Code Here
 
-
+var methodCollection = {
+  alertHello: function(){
+    return alert('hello');
+  },
+  logHello: function(){
+    return console.log('hello');
+  },
+};
 
 /*
   Now call your alertHello and logHello methods.
@@ -168,7 +173,8 @@ var user2 = {
 
 //Code Here
 
-
+alertHello();
+logHello();
 
 ////////// PROBLEM 6 //////////
 
@@ -179,7 +185,14 @@ var user2 = {
 
 //Code Here
 
-
+function makePerson (name, birthday, ssn){
+  var obj = {
+    name: 'name',
+    birthday: 'birthday',
+    ssn: 'ssn'
+  };
+return obj;
+}
 
 ////////// PROBLEM 7 //////////
 
@@ -189,3 +202,11 @@ var user2 = {
 */
 
 //Code Here
+function makeCard (cardNumber, expirationDate, ssn){
+  var obj1 = {
+    cardNumber: 'cardNumber',
+    expirationDate: 'expirationDate',
+    securityCode: 'securityCode'
+  };
+return obj1;
+}
