@@ -21,7 +21,7 @@ me = {
   age:28
 };
 
-// alert(me.name);
+alert(me.name);
 
 
 
