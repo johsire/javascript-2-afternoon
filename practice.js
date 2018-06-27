@@ -16,7 +16,7 @@
 
 //Code here
 
-me = {
+var me = {
   name:'Joh',
   age:28
 };
@@ -35,6 +35,14 @@ alert(me.name);
 
 //Code here
 
+var favoriteThings = {
+  band: 'Angus and Julia Stone',
+  food: 'Steak',
+  person: 'Timmy',
+  book: 'The Bible',
+  movie: 'Wedding Crashers',
+  holiday: 'Jamaica'
+};
 
 
 /*
@@ -43,6 +51,8 @@ alert(me.name);
 
 //Code here
 
+favoriteThings.car = 'Mercedes-Benz';
+favoriteThings.brand = 'Nike';
 
 
 /*
@@ -50,6 +60,9 @@ alert(me.name);
 */
 
 //Code here
+
+favoriteThings.food = 'Chicken Nuggets';
+favoriteThings.book ='Harry Potter';
 
 
 
@@ -64,7 +77,6 @@ alert(me.name);
 */
 
 //Code here
-
 
 
 /*
