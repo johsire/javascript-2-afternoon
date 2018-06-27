@@ -16,12 +16,13 @@
 
 //Code here
 
-var me = {
+me = {
   name:'Joh',
   age:28
 };
 
-alert(me.name);
+// alert(me.name);
+
 
 
 
@@ -34,13 +35,13 @@ alert(me.name);
 
 //Code here
 
+
+
 /*
   After you've made your object, add another key named 'car' with the value being your favorite car and then another key named 'brand' with the value being your favorite brand.
 */
 
 //Code here
-
-
 
 
 
