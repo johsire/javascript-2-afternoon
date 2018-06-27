@@ -78,13 +78,22 @@ favoriteThings.book ='Harry Potter';
 
 //Code here
 
+var backPack = { };
+
+var item ='firstPocket';
+
+backPack['firstPocket'] = 'chapstick';
+
+backPack.color = 'Yellow and grey';
+
+
 
 /*
   After you do the above, alert your entire backPack object.
 */
 
 //Code here
-
+alert(backPack);
 
 
 /*
@@ -95,6 +104,7 @@ Instead, console.log your whole backPack object and then check out the console.
 
 //Code here
 
+console.log(backPackg);
 
 
 ////////// PROBLEM 4 //////////
